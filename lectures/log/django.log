@@ -1,0 +1,50 @@
+Watching for file changes with StatReloader
+C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /prefix/about/ HTTP/1.1" 200 27
+"GET /prefix HTTP/1.1" 301 0
+"GET /prefix/ HTTP/1.1" 200 13
+C:\Users\Nikita\PycharmProjects\42_django\lectures\lectures\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Index page accessed
+"GET /prefix/ HTTP/1.1" 200 13
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp\views.py", line 18, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /prefix/about/ HTTP/1.1" 200 27
+C:\Users\Nikita\PycharmProjects\42_django\lectures\lectures\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Nikita\PycharmProjects\42_django\lectures\lectures\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Nikita\PycharmProjects\42_django\lectures\lectures\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Nikita\PycharmProjects\42_django\lectures\lectures\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Nikita\PycharmProjects\42_django\lectures\lectures\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Nikita\PycharmProjects\42_django\lectures\lectures\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Nikita\PycharmProjects\42_django\lectures\lectures\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Nikita\PycharmProjects\42_django\lectures\lectures\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Nikita\PycharmProjects\42_django\lectures\lectures\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Nikita\PycharmProjects\42_django\lectures\lectures\settings.py changed, reloading.
+INFO 2023-08-17 22:32:10,129 autoreload 15768 7064 Watching for file changes with StatReloader
+ERROR 2023-08-17 22:32:28,836 views 15768 10428 Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp\views.py", line 18, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2023-08-17 22:32:28,837 basehttp 15768 10428 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2023-08-17 22:32:30,924 views 15768 10428 Index page accessed
+INFO 2023-08-17 22:32:30,925 basehttp 15768 10428 "GET /prefix/ HTTP/1.1" 200 13
