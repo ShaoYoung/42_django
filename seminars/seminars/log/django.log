@@ -1,0 +1,97 @@
+INFO 2023-08-19 01:27:12,748 autoreload 12460 15500 Watching for file changes with StatReloader
+INFO 2023-08-19 01:27:15,916 views 12460 17980 Случайное число 5
+INFO 2023-08-19 01:27:15,917 basehttp 12460 17980 "GET /sem_1_2/rand100/ HTTP/1.1" 200 31
+INFO 2023-08-19 01:27:19,240 views 12460 17980 На кубике выпало - 6
+INFO 2023-08-19 01:27:19,241 basehttp 12460 17980 "GET /sem_1_2/cube/ HTTP/1.1" 200 34
+INFO 2023-08-19 01:27:21,367 views 12460 17980 Результат - Решка
+INFO 2023-08-19 01:27:21,367 basehttp 12460 17980 "GET /sem_1_2/coin/ HTTP/1.1" 200 31
+INFO 2023-08-19 01:30:10,970 autoreload 12460 15500 C:\Users\Nikita\PycharmProjects\42_django\seminars\seminars\sem_1_2_app\views.py changed, reloading.
+INFO 2023-08-19 01:30:11,944 autoreload 13484 11816 Watching for file changes with StatReloader
+INFO 2023-08-19 01:30:12,348 views 13484 20236 Coin throw result - Решка
+INFO 2023-08-19 01:30:12,349 basehttp 13484 20236 "GET /sem_1_2/coin/ HTTP/1.1" 200 31
+INFO 2023-08-19 01:30:14,690 views 13484 20236 Coin throw result - Решка
+INFO 2023-08-19 01:30:14,691 basehttp 13484 20236 "GET /sem_1_2/coin/ HTTP/1.1" 200 31
+INFO 2023-08-19 01:30:15,854 views 13484 20236 Coin throw result - Орёл
+INFO 2023-08-19 01:30:15,855 basehttp 13484 20236 "GET /sem_1_2/coin/ HTTP/1.1" 200 29
+INFO 2023-08-19 01:30:17,786 views 13484 20236 Cube throw - 4
+INFO 2023-08-19 01:30:17,786 basehttp 13484 20236 "GET /sem_1_2/cube/ HTTP/1.1" 200 34
+INFO 2023-08-19 01:30:18,506 views 13484 20236 Cube throw - 1
+INFO 2023-08-19 01:30:18,507 basehttp 13484 20236 "GET /sem_1_2/cube/ HTTP/1.1" 200 34
+INFO 2023-08-19 01:30:19,230 views 13484 20236 Cube throw - 3
+INFO 2023-08-19 01:30:19,230 basehttp 13484 20236 "GET /sem_1_2/cube/ HTTP/1.1" 200 34
+INFO 2023-08-19 01:30:22,819 views 13484 20236 Random number 13
+INFO 2023-08-19 01:30:22,820 basehttp 13484 20236 "GET /sem_1_2/rand100/ HTTP/1.1" 200 32
+INFO 2023-08-19 01:30:23,504 views 13484 20236 Random number 15
+INFO 2023-08-19 01:30:23,505 basehttp 13484 20236 "GET /sem_1_2/rand100/ HTTP/1.1" 200 32
+INFO 2023-08-19 01:30:24,142 views 13484 20236 Random number 85
+INFO 2023-08-19 01:30:24,143 basehttp 13484 20236 "GET /sem_1_2/rand100/ HTTP/1.1" 200 32
+INFO 2023-08-19 01:30:29,678 views 13484 20236 Index page was visited
+INFO 2023-08-19 01:30:29,678 basehttp 13484 20236 "GET / HTTP/1.1" 200 5
+INFO 2023-08-19 01:39:02,482 autoreload 16828 11192 Watching for file changes with StatReloader
+INFO 2023-08-19 01:41:14,343 autoreload 16828 11192 C:\Users\Nikita\PycharmProjects\42_django\seminars\seminars\seminars\settings.py changed, reloading.
+INFO 2023-08-19 01:41:15,287 autoreload 17932 15500 Watching for file changes with StatReloader
+INFO 2023-08-19 01:41:15,426 views 17932 16996 Index page was visited
+INFO 2023-08-19 01:41:15,427 basehttp 17932 16996 "GET / HTTP/1.1" 200 5
+INFO 2023-08-19 01:41:17,674 views 17932 16996 Index page was visited
+INFO 2023-08-19 01:41:17,675 basehttp 17932 16996 "GET / HTTP/1.1" 200 5
+INFO 2023-08-19 01:41:34,329 basehttp 17932 16996 "GET /hw_1 HTTP/1.1" 301 0
+INFO 2023-08-19 01:41:34,331 basehttp 17932 9116 "GET /hw_1/ HTTP/1.1" 200 4
+INFO 2023-08-19 01:41:54,408 basehttp 17932 9116 "GET /hw_1/about HTTP/1.1" 301 0
+INFO 2023-08-19 01:41:54,410 basehttp 17932 5284 "GET /hw_1/about/ HTTP/1.1" 200 8
+INFO 2023-08-19 01:43:34,336 autoreload 17932 15500 C:\Users\Nikita\PycharmProjects\42_django\seminars\seminars\homework_1_app\views.py changed, reloading.
+INFO 2023-08-19 01:43:35,359 autoreload 15356 3028 Watching for file changes with StatReloader
+INFO 2023-08-19 01:47:41,652 autoreload 15356 3028 C:\Users\Nikita\PycharmProjects\42_django\seminars\seminars\homework_1_app\views.py changed, reloading.
+INFO 2023-08-19 01:47:42,213 autoreload 10516 19772 Watching for file changes with StatReloader
+INFO 2023-08-19 01:47:44,546 basehttp 10516 19220 "GET /hw_1/about/ HTTP/1.1" 200 9
+INFO 2023-08-19 01:47:46,809 basehttp 10516 19220 "GET /hw_1/about/ HTTP/1.1" 200 9
+INFO 2023-08-19 01:47:47,553 basehttp 10516 19220 "GET /hw_1/about/ HTTP/1.1" 200 9
+INFO 2023-08-19 01:47:48,454 basehttp 10516 19220 "GET /hw_1/about/ HTTP/1.1" 200 9
+INFO 2023-08-19 01:47:49,227 basehttp 10516 19220 "GET /hw_1/about/ HTTP/1.1" 200 9
+INFO 2023-08-19 01:47:49,914 basehttp 10516 19220 "GET /hw_1/about/ HTTP/1.1" 200 9
+INFO 2023-08-19 01:47:50,900 basehttp 10516 19220 "GET /hw_1/about/ HTTP/1.1" 200 9
+INFO 2023-08-19 01:47:51,776 basehttp 10516 19220 "GET /hw_1/about/ HTTP/1.1" 200 9
+INFO 2023-08-19 01:51:13,974 autoreload 10516 19772 C:\Users\Nikita\PycharmProjects\42_django\seminars\seminars\homework_1_app\views.py changed, reloading.
+INFO 2023-08-19 01:51:15,026 autoreload 14516 9976 Watching for file changes with StatReloader
+INFO 2023-08-19 02:01:46,706 autoreload 14516 9976 C:\Users\Nikita\PycharmProjects\42_django\seminars\seminars\homework_1_app\views.py changed, reloading.
+INFO 2023-08-19 02:01:47,825 autoreload 10472 18328 Watching for file changes with StatReloader
+ERROR 2023-08-19 02:01:56,979 log 10472 15864 Internal Server Error: /hw_1/about/
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\42_django\seminars\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\42_django\seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Nikita\PycharmProjects\42_django\seminars\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view homework_1_app.views.about didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-08-19 02:01:56,980 basehttp 10472 15864 "GET /hw_1/about/ HTTP/1.1" 500 69347
+INFO 2023-08-19 02:04:39,091 autoreload 10472 18328 C:\Users\Nikita\PycharmProjects\42_django\seminars\seminars\homework_1_app\views.py changed, reloading.
+INFO 2023-08-19 02:04:39,652 autoreload 16768 16492 Watching for file changes with StatReloader
+INFO 2023-08-19 02:04:45,188 basehttp 16768 11348 "GET /hw_1/about/ HTTP/1.1" 200 9
+INFO 2023-08-19 02:04:47,831 basehttp 16768 11348 "GET /hw_1/about/ HTTP/1.1" 200 9
+INFO 2023-08-19 02:05:04,099 autoreload 8372 9188 Watching for file changes with StatReloader
+INFO 2023-08-19 02:05:06,749 basehttp 8372 17664 "GET /hw_1/about/ HTTP/1.1" 200 9
+INFO 2023-08-19 02:06:56,727 autoreload 8372 9188 C:\Users\Nikita\PycharmProjects\42_django\seminars\seminars\seminars\settings.py changed, reloading.
+INFO 2023-08-19 02:09:35,791 views 8832 13080 Page about was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:09:59,845 views 8832 13080 Page about was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:10:01,759 views 20408 16372 Page about was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:10:32,922 views 13632 16560 Page about was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:11:29,630 views 13632 16560 Page about was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:11:32,817 views 15812 16768 Page "about" was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:12:00,181 views 15812 16768 Page "about" was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:12:03,505 views 1896 9868 === Page "about" was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:16:24,259 views 4360 17468 === Page "main" was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:32:41,916 views 14544 19296 === Page "main" was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:34:48,234 views 14544 19296 === Page "main" was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:34:50,062 views 5728 19876 === Page "main" was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:47:01,541 views 15140 5364 === Page "about" was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:49:54,229 views 11828 8240 === Page "about" was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:50:23,292 views 11828 8240 === Page "about" was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:50:25,560 views 17460 15812 === Page "about" was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:50:26,943 views 17460 15812 === Page "about" was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:50:29,105 views 17460 15812 === Page "about" was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:50:38,995 views 17460 15812 === Page "about" was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:50:40,245 views 4344 20180 === Page "about" was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:50:49,457 views 4344 20180 === Page "about" was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:50:57,891 views 4344 20180 === Page "about" was visited from ip = 127.0.0.1
+INFO 2023-08-19 02:50:59,536 views 16888 20452 === Page "about" was visited from ip = 127.0.0.1
