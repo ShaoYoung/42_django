@@ -48,3 +48,148 @@ ZeroDivisionError: division by zero
 INFO 2023-08-17 22:32:28,837 basehttp 15768 10428 "GET /prefix/about/ HTTP/1.1" 200 27
 INFO 2023-08-17 22:32:30,924 views 15768 10428 Index page accessed
 INFO 2023-08-17 22:32:30,925 basehttp 15768 10428 "GET /prefix/ HTTP/1.1" 200 13
+INFO 2023-08-20 12:19:33,240 autoreload 19984 10144 Watching for file changes with StatReloader
+INFO 2023-08-20 12:21:54,481 autoreload 11104 2404 Watching for file changes with StatReloader
+INFO 2023-08-20 12:31:16,963 autoreload 16772 17492 Watching for file changes with StatReloader
+INFO 2023-08-24 20:56:12,305 autoreload 17668 9244 Watching for file changes with StatReloader
+WARNING 2023-08-24 20:56:18,247 log 17668 13156 Not Found: /
+WARNING 2023-08-24 20:56:18,248 basehttp 17668 13156 "GET / HTTP/1.1" 404 2273
+WARNING 2023-08-24 20:57:10,314 log 17668 13156 Not Found: /les3/
+WARNING 2023-08-24 20:57:10,314 basehttp 17668 13156 "GET /les3/ HTTP/1.1" 404 2547
+INFO 2023-08-24 20:57:25,427 basehttp 17668 13156 "GET /les3/hello HTTP/1.1" 301 0
+INFO 2023-08-24 20:57:25,431 basehttp 17668 14316 "GET /les3/hello/ HTTP/1.1" 200 26
+INFO 2023-08-24 20:57:31,749 basehttp 17668 14316 "GET /les3/hello2 HTTP/1.1" 301 0
+INFO 2023-08-24 20:57:31,752 basehttp 17668 1372 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2023-08-24 21:01:35,372 autoreload 17668 9244 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 21:01:36,029 autoreload 12784 16932 Watching for file changes with StatReloader
+INFO 2023-08-24 21:01:51,726 autoreload 12784 16932 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 21:01:52,266 autoreload 13896 5912 Watching for file changes with StatReloader
+INFO 2023-08-24 21:02:05,817 autoreload 13896 5912 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 21:02:06,452 autoreload 9796 1196 Watching for file changes with StatReloader
+INFO 2023-08-24 21:04:59,569 autoreload 9796 1196 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 21:05:00,176 autoreload 17984 10540 Watching for file changes with StatReloader
+INFO 2023-08-24 21:07:16,571 autoreload 17984 10540 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 21:07:17,139 autoreload 9484 15456 Watching for file changes with StatReloader
+INFO 2023-08-24 21:08:05,131 autoreload 9484 15456 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 21:08:05,754 autoreload 18064 11300 Watching for file changes with StatReloader
+INFO 2023-08-24 21:10:17,203 autoreload 18064 11300 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 21:10:17,790 autoreload 18272 4360 Watching for file changes with StatReloader
+INFO 2023-08-24 21:11:37,345 autoreload 18272 4360 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 21:11:37,926 autoreload 16560 13116 Watching for file changes with StatReloader
+INFO 2023-08-24 21:12:12,688 autoreload 16560 13116 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:12:13,252 autoreload 12952 17728 Watching for file changes with StatReloader
+INFO 2023-08-24 21:13:10,411 autoreload 12952 17728 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:13:11,149 autoreload 8632 18084 Watching for file changes with StatReloader
+INFO 2023-08-24 21:14:50,111 autoreload 8632 18084 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:14:50,670 autoreload 13140 14956 Watching for file changes with StatReloader
+INFO 2023-08-24 21:15:09,157 autoreload 13140 14956 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:15:09,823 autoreload 5472 10748 Watching for file changes with StatReloader
+INFO 2023-08-24 21:16:20,250 autoreload 5472 10748 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:16:20,878 autoreload 4548 17620 Watching for file changes with StatReloader
+INFO 2023-08-24 21:17:32,264 autoreload 4548 17620 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:17:32,853 autoreload 1800 1780 Watching for file changes with StatReloader
+INFO 2023-08-24 21:17:47,277 autoreload 1800 1780 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:17:47,822 autoreload 2464 16140 Watching for file changes with StatReloader
+INFO 2023-08-24 21:18:21,883 autoreload 2464 16140 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:18:22,549 autoreload 2100 15988 Watching for file changes with StatReloader
+INFO 2023-08-24 21:20:03,020 autoreload 2100 15988 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:20:03,623 autoreload 17548 8784 Watching for file changes with StatReloader
+WARNING 2023-08-24 21:20:19,465 log 17548 9744 Not Found: /post/2023/08/24
+WARNING 2023-08-24 21:20:19,466 basehttp 17548 9744 "GET /post/2023/08/24 HTTP/1.1" 404 2336
+WARNING 2023-08-24 21:20:33,234 log 17548 9744 Not Found: /posts/2023/08/24
+WARNING 2023-08-24 21:20:33,234 basehttp 17548 9744 "GET /posts/2023/08/24 HTTP/1.1" 404 2339
+WARNING 2023-08-24 21:21:15,222 log 17548 9744 Not Found: /posts/2023/08/python
+WARNING 2023-08-24 21:21:15,223 basehttp 17548 9744 "GET /posts/2023/08/python HTTP/1.1" 404 2351
+INFO 2023-08-24 21:22:14,494 basehttp 17548 9744 "GET /les3/posts/2023/08/python HTTP/1.1" 301 0
+INFO 2023-08-24 21:22:14,496 basehttp 17548 15796 "GET /les3/posts/2023/08/python/ HTTP/1.1" 200 364
+INFO 2023-08-24 21:31:47,133 autoreload 17548 8784 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:31:47,793 autoreload 1312 15512 Watching for file changes with StatReloader
+INFO 2023-08-24 21:32:00,389 autoreload 1312 15512 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:32:00,962 autoreload 8112 17928 Watching for file changes with StatReloader
+INFO 2023-08-24 21:32:14,354 autoreload 8112 17928 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:32:14,918 autoreload 14748 17800 Watching for file changes with StatReloader
+INFO 2023-08-24 21:32:33,416 autoreload 14748 17800 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:32:33,941 autoreload 9940 16420 Watching for file changes with StatReloader
+INFO 2023-08-24 21:32:46,316 autoreload 9940 16420 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:32:46,920 autoreload 9796 9544 Watching for file changes with StatReloader
+INFO 2023-08-24 21:35:11,183 autoreload 9796 9544 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 21:35:11,814 autoreload 2620 17432 Watching for file changes with StatReloader
+INFO 2023-08-24 21:35:25,461 autoreload 2620 17432 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 21:35:26,199 autoreload 11276 10160 Watching for file changes with StatReloader
+INFO 2023-08-24 21:36:01,429 basehttp 11276 13884 "GET /les3 HTTP/1.1" 301 0
+INFO 2023-08-24 21:36:01,434 basehttp 11276 16540 "GET /les3/ HTTP/1.1" 200 174
+INFO 2023-08-24 21:43:33,914 autoreload 11276 10160 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:43:34,651 autoreload 18388 14688 Watching for file changes with StatReloader
+INFO 2023-08-24 21:44:28,097 autoreload 18388 14688 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:44:28,715 autoreload 18408 16148 Watching for file changes with StatReloader
+INFO 2023-08-24 21:44:59,827 autoreload 18408 16148 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:45:00,347 autoreload 17348 14896 Watching for file changes with StatReloader
+INFO 2023-08-24 21:45:35,646 autoreload 17348 14896 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:45:36,731 autoreload 7124 9468 Watching for file changes with StatReloader
+INFO 2023-08-24 21:47:14,096 autoreload 7124 9468 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 21:47:14,687 autoreload 7088 17664 Watching for file changes with StatReloader
+INFO 2023-08-24 21:47:24,282 autoreload 7088 17664 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 21:47:24,887 autoreload 2376 17772 Watching for file changes with StatReloader
+INFO 2023-08-24 21:47:55,888 autoreload 2376 17772 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 21:47:56,474 autoreload 17168 2760 Watching for file changes with StatReloader
+INFO 2023-08-24 21:48:20,658 basehttp 17168 8876 "GET /les3/if HTTP/1.1" 301 0
+INFO 2023-08-24 21:48:20,666 basehttp 17168 12104 "GET /les3/if/ HTTP/1.1" 200 352
+INFO 2023-08-24 21:54:48,495 autoreload 17168 2760 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:54:49,127 autoreload 15188 11948 Watching for file changes with StatReloader
+INFO 2023-08-24 21:55:54,806 autoreload 15188 11948 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:55:55,766 autoreload 14484 15268 Watching for file changes with StatReloader
+INFO 2023-08-24 21:57:11,670 autoreload 14484 15268 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:57:12,251 autoreload 10548 8148 Watching for file changes with StatReloader
+INFO 2023-08-24 21:57:28,960 autoreload 10548 8148 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 21:57:29,531 autoreload 11880 17880 Watching for file changes with StatReloader
+INFO 2023-08-24 21:58:33,291 autoreload 11880 17880 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 21:58:33,903 autoreload 12432 14984 Watching for file changes with StatReloader
+INFO 2023-08-24 21:58:42,420 autoreload 12432 14984 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 21:58:43,231 autoreload 9408 16516 Watching for file changes with StatReloader
+INFO 2023-08-24 21:59:12,526 basehttp 9408 5096 "GET /les3/for HTTP/1.1" 301 0
+INFO 2023-08-24 21:59:12,530 basehttp 9408 17436 "GET /les3/for/ HTTP/1.1" 200 1086
+INFO 2023-08-24 22:00:08,591 autoreload 9408 16516 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 22:00:09,080 autoreload 3024 8912 Watching for file changes with StatReloader
+INFO 2023-08-24 22:12:58,556 autoreload 3024 8912 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 22:12:59,246 autoreload 17084 3584 Watching for file changes with StatReloader
+INFO 2023-08-24 22:14:34,710 autoreload 17084 3584 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\urls.py changed, reloading.
+INFO 2023-08-24 22:14:35,480 autoreload 10968 7296 Watching for file changes with StatReloader
+INFO 2023-08-24 22:14:51,206 basehttp 10968 17540 "GET /les3/index HTTP/1.1" 301 0
+INFO 2023-08-24 22:14:51,214 basehttp 10968 13040 "GET /les3/index/ HTTP/1.1" 200 213
+INFO 2023-08-24 22:14:58,395 basehttp 10968 13040 "GET /les3/about HTTP/1.1" 301 0
+INFO 2023-08-24 22:14:58,397 basehttp 10968 16164 "GET /les3/about/ HTTP/1.1" 200 213
+INFO 2023-08-24 22:15:16,003 basehttp 10968 16164 "GET /les3/about/ HTTP/1.1" 200 213
+INFO 2023-08-24 22:15:29,901 basehttp 10968 16164 "GET /les3/about/ HTTP/1.1" 200 213
+INFO 2023-08-24 22:15:30,357 autoreload 10968 7296 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\views.py changed, reloading.
+INFO 2023-08-24 22:15:31,062 autoreload 12716 9864 Watching for file changes with StatReloader
+INFO 2023-08-24 22:15:31,264 basehttp 12716 9164 "GET /les3/about/ HTTP/1.1" 200 222
+INFO 2023-08-24 22:17:17,723 autoreload 12716 9864 C:\Users\Nikita\PycharmProjects\42_django\lectures\lectures\settings.py changed, reloading.
+INFO 2023-08-24 22:17:18,322 autoreload 9508 1456 Watching for file changes with StatReloader
+INFO 2023-08-24 22:17:49,313 autoreload 9508 1456 C:\Users\Nikita\PycharmProjects\42_django\lectures\lectures\settings.py changed, reloading.
+INFO 2023-08-24 22:17:49,887 autoreload 16728 13576 Watching for file changes with StatReloader
+INFO 2023-08-24 22:18:30,051 autoreload 16728 13576 C:\Users\Nikita\PycharmProjects\42_django\lectures\lectures\settings.py changed, reloading.
+INFO 2023-08-24 22:18:30,644 autoreload 17912 5208 Watching for file changes with StatReloader
+INFO 2023-08-24 22:19:11,997 autoreload 17912 5208 C:\Users\Nikita\PycharmProjects\42_django\lectures\lectures\settings.py changed, reloading.
+INFO 2023-08-24 22:19:12,653 autoreload 14296 12448 Watching for file changes with StatReloader
+INFO 2023-08-24 22:22:54,452 basehttp 14296 17748 "GET /les3/index/ HTTP/1.1" 200 273
+INFO 2023-08-24 22:25:09,680 autoreload 14296 12448 C:\Users\Nikita\PycharmProjects\42_django\lectures\lectures\urls.py changed, reloading.
+INFO 2023-08-24 22:25:10,215 autoreload 1900 2632 Watching for file changes with StatReloader
+INFO 2023-08-24 22:26:31,263 autoreload 1900 2632 C:\Users\Nikita\PycharmProjects\42_django\lectures\lectures\urls.py changed, reloading.
+INFO 2023-08-24 22:26:31,873 autoreload 18324 4924 Watching for file changes with StatReloader
+INFO 2023-08-24 22:26:44,265 autoreload 18324 4924 C:\Users\Nikita\PycharmProjects\42_django\lectures\lectures\urls.py changed, reloading.
+INFO 2023-08-24 22:26:45,197 autoreload 3636 13268 Watching for file changes with StatReloader
+INFO 2023-08-24 22:27:13,383 basehttp 3636 15104 "GET / HTTP/1.1" 200 273
+INFO 2023-08-24 22:27:16,469 basehttp 3636 15104 "GET / HTTP/1.1" 200 273
+INFO 2023-08-24 22:32:23,839 autoreload 3636 13268 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\models.py changed, reloading.
+INFO 2023-08-24 22:32:24,564 autoreload 6296 14652 Watching for file changes with StatReloader
+INFO 2023-08-24 22:33:22,273 autoreload 6296 14652 C:\Users\Nikita\PycharmProjects\42_django\lectures\myapp3\models.py changed, reloading.
+INFO 2023-08-24 22:33:22,842 autoreload 3732 1500 Watching for file changes with StatReloader
+INFO 2023-08-25 00:16:31,989 autoreload 1780 10644 Watching for file changes with StatReloader
+WARNING 2023-08-25 00:16:59,008 log 1780 4748 Not Found: /les/author/5
+WARNING 2023-08-25 00:16:59,009 basehttp 1780 4748 "GET /les/author/5 HTTP/1.1" 404 2427
+INFO 2023-08-25 00:17:09,600 basehttp 1780 4748 "GET /les3/author/5 HTTP/1.1" 301 0
+INFO 2023-08-25 00:17:09,613 basehttp 1780 17876 "GET /les3/author/5/ HTTP/1.1" 200 2291
+INFO 2023-08-25 00:17:18,740 basehttp 1780 17876 "GET /les3/post/50/ HTTP/1.1" 200 418
+INFO 2023-08-25 00:17:24,858 basehttp 1780 17876 "GET /les3/post/49/ HTTP/1.1" 200 437
+INFO 2023-08-25 00:17:31,511 basehttp 1780 17876 "GET /les3/post/46/ HTTP/1.1" 200 475
+INFO 2023-08-25 00:17:46,101 basehttp 1780 17876 "GET /les3/post/48/ HTTP/1.1" 200 430

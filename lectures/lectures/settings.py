@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp',  # приложение myapp является частью проекта
+    'myapp2',  # приложение myapp2 является частью проекта
+    'myapp3',  # приложение myapp3 является частью проекта
 ]
 
 MIDDLEWARE = [
@@ -52,10 +54,19 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'lectures.urls'
 
+# Django позволяет создать базовый шаблон на уровне проекта. В таком случае все приложения смогут использовать его для расширения своих дочерних шаблонов.
+# Для этого выполним предварительные настройки в файле settings.py проекта.
+# Добавляем в список DIRS путь до каталога шаблона проекта -
+# BASE_DIR / 'templates'.
+# Далее создаём каталог templates в каталоге BASE_DIR. Это каталог верхнего уровня.
+# В нём находится файл manage.py, каталог проекта и каталоги приложений
+# TEMPLATES - это список, где django ищет файлы шаблонов
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR / 'templates',
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

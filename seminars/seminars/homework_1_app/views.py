@@ -3,6 +3,8 @@ from django.http import HttpResponse  # HttpResponse - класс, к-й воз�
 import logging
 from functools import wraps
 from datetime import datetime
+from django.shortcuts import render
+
 
 logger = logging.getLogger(__name__)
 
@@ -22,24 +24,15 @@ def write_log(func):
 
 @write_log
 def main(request):
-    html_text = "<h1>My name is Shaverin Nikita.</h1>" \
-                "<h2>I'm forty four years old.</h2>" \
-                "<h2>I live in Tomsk city.</h2>" \
-                "<h3>I'm learning in GeekBrains on the faculty of Python developer more than year yet.</h3>"
-    return HttpResponse(html_text)
+    context = {'name': 'UserName'}
+    return render(request, 'homework_1_app/main.html', context)
 
 
 @write_log
 def about(request):
-    html_text = f"<h1>Now i'm learning very interesting Django framework.</h1>" \
-                f"<h2>I can make something yet.</h2>" \
-                f"<h2>For example:</h2>" \
-                f"<ul>" \
-                f"<li>Now is {datetime.now().strftime('%H:%M - %d.%m.%Y y.')}</li>" \
-                f"<li>You visited this site from IP {get_client_ip(request)}</li>" \
-                f"</ul>" \
-                f"<h3>It's only the beginning!</h3>"
-    return HttpResponse(html_text)
+    context = {'datetime': datetime.now(), 'client_ip': get_client_ip(request)}
+    return render(request, 'homework_1_app/about.html', context)
+
 
 
 # возвращает ip, с которого пришёл request

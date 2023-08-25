@@ -16,6 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include   # include - для подключения
+from myapp3.views import index
 
 # шаблоны адресов
 urlpatterns = [
@@ -24,4 +25,7 @@ urlpatterns = [
     # path('', include('myapp.urls')),
     # для проверки работоспособности
     path('prefix/', include('myapp.urls')),
+    # по пути lec3 подключается приложение myapp3 (далее его view)
+    path('les3/', include('myapp3.urls')),
+    path('', index),
 ]
