@@ -6,9 +6,34 @@
 </head>
 <body>
 
-<h1>{{ article.head }}</h1>
-<p>{{ article.content }}</p>
-<p>{{ article.count }}</p>
+<h1>Статья: {{ article.head }}</h1>
+<h2>Количество просмотров статьи {{ article.count }}</h2>
+
+<h2>{{ article.content }}</h2>
+    <table>
+        <tr>
+            <td>Текст комментария</td>
+            <td>Автор комментария</td>
+            <td>Дата обновления комментария</td>
+            <td>Изменялся / не изменялся</td>
+        </tr>
+        {% for comment in comments %}
+        <tr>
+            <td>{{ comment.content }}</td>
+            <td>{{ comment.author.name }}</td>
+            <td>{{ comment.modify_date }}</td>
+                <td>
+                    {% if comment.make_date != comment.modify_date %}
+                        изменено
+                    {% else %}
+                        -
+                    {% endif%}
+                </td>
+        </tr>
+        {% endfor %}
+    </table>
+
+
 
 </body>
 </html>

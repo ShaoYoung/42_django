@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from django.views import View
 # HttpResponse - это класс, экземпляры которого возвращают ответы
 # JsonResponse - это класс, к-й позволяет возвращать ответ как json-объект
@@ -11,22 +10,23 @@ from .models import Author, Article, Comment
 from django.shortcuts import get_object_or_404
 
 
-
 def get_articles(request, author_id):
     # print(author_id)
-    articles = Article.objects.filter(author__pk = author_id)
+    articles = Article.objects.filter(author__pk=author_id)
     # print(len(articles))
     context = {"articles": articles}
-    return render(request, "sem_2_1_app/templ.html", context)
+    return render(request, "sem_2_1_app/articles.html", context)
+
 
 def get_article(request, article_id):
-    # print(article_id)
-    article = Article.objects.filter(pk = article_id).first()
-
-    # TODO Проверить
-
-    # article.count +=1
-    # article.save()
-    # print(type(article))
-    context = {"article": article}
+    article = Article.objects.filter(pk=article_id).first()
+    article.count += 1
+    article.save()
+    # все комментарии статьи
+    comments = Comment.objects.filter(article=article).order_by('modify_date')
+    context = {
+        'article': article,
+        'comments': comments,
+    }
     return render(request, "sem_2_1_app/article.html", context)
+

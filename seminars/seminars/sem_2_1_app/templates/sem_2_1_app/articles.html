@@ -8,9 +8,10 @@
 
 {% for article in articles %}
     {% if article.public %}
-    <a href="{% url 'article' article.id %}">{{ article.head }}</a>
+        <a href="{% url 'article' article.id %}">{{ article.head }}</a>
+        <br>
     {% else %}
-    <p>{{ article.head }}</p>
+        <p>{{ article.head }}</p>
     {% endif %}
 {% endfor %}
 

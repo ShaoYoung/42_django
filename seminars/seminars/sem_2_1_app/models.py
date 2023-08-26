@@ -47,8 +47,8 @@ class Article(models.Model):
 class Comment(models.Model):
     # у комментария один автор, но автор может писать комментарии к разным статьям (один ко многим)
     author = models.ForeignKey(Author, on_delete=models.CASCADE)
-    # комментарий относится к одной статье (один к одному)
-    article = models.OneToOneField(Article, on_delete=models.CASCADE)
+    # комментарий относится к одной статье, но у одной статьи может быть несколько комментариев (один ко многим)
+    article = models.ForeignKey(Article, on_delete=models.CASCADE)
     content = models.TextField()
     make_date = models.DateTimeField(auto_now=True)
     # дата изменения (при создании равна дате создания)

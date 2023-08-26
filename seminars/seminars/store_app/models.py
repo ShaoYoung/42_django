@@ -22,5 +22,5 @@ class Order(models.Model):
     # Заказ может содержать несколько товаров. Товар может входить в несколько заказов. Список ManyToManyField ?!?
     products = models.ManyToManyField(Product)
     sum_order = models.DecimalField(max_digits=15, decimal_places=2)
-    date_create = models.DateField(auto_now=True)
+    date_create = models.DateField()
 
