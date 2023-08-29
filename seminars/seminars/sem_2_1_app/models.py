@@ -41,7 +41,7 @@ class Article(models.Model):
     author = models.ForeignKey(Author, on_delete=models.CASCADE)
     category = models.CharField(max_length=100)
     count = models.IntegerField(default=0)
-    public = models.BooleanField()
+    public = models.BooleanField(default=False)
 
 
 class Comment(models.Model):

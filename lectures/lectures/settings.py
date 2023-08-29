@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'myapp',  # приложение myapp является частью проекта
     'myapp2',  # приложение myapp2 является частью проекта
     'myapp3',  # приложение myapp3 является частью проекта
+    'myapp4',  # приложение myapp4 является частью проекта
 ]
 
 MIDDLEWARE = [
@@ -125,6 +126,13 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+
+# для сохранения изображений
+# django создаёт (при первом использовании) эти каталоги и сохраняет в них изображения
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
@@ -181,4 +189,5 @@ LOGGING = {'version': 1,
            },
            }
 # Освежить знания по логированию можно на странице официальной документации Python https://docs.python.org/3/library/logging.html
+
 

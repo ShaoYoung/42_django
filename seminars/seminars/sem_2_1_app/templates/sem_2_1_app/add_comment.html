@@ -1,0 +1,17 @@
+{% extends 'sem_2_1_app/article.html' %}
+
+
+{% block add_comment %}
+
+<h3>{{ message }}</h3>
+
+<form method="post">
+    {% csrf_token %}
+    <table>{{ form.as_table }}</table>
+    <input type="submit" value="Сохранить">
+</form>
+
+
+{% endblock %}
+
+

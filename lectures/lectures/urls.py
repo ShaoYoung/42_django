@@ -28,4 +28,5 @@ urlpatterns = [
     # по пути lec3 подключается приложение myapp3 (далее его view)
     path('les3/', include('myapp3.urls')),
     path('', index),
+    path('les4/', include('myapp4.urls')),
 ]
