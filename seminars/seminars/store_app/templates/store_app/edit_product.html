@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ Title }}</title>
+</head>
+<body>
+
+    <h3>{{ message }}</h3>
+
+<!-- enctype="multipart/form-data" - форма должна быть готова пересылать набор байт в виде отдельного файла -->
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <table>{{ form.as_table }}</table>
+    <input type="submit" value="Сохранить">
+
+  </form>
+
+</body>
+</html>

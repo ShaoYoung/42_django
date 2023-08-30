@@ -10,10 +10,15 @@ class Client(models.Model):
 
 class Product(models.Model):
     name = models.CharField(max_length=100)
-    description = models.TextField()
+    description = models.CharField(max_length=100)
     price = models.DecimalField(max_digits=15, decimal_places=2)
     quantity = models.IntegerField()
     date_add = models.DateField(auto_now=True)
+    # upload_to - директория в media, куда будет сохраняться изображения
+    image = models.ImageField(upload_to='product_media/', default=None)
+
+    def __str__(self):
+        return f'Товар: {self.name}, описание: {self.description}, цена: {self.price}'
 
 
 class Order(models.Model):
