@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'sem_1_2_app',
     'homework_1_app',
     'sem_2_1_app',
-    'store_app'
+    'store_app',
+    'sem_5_app',
 ]
 
 MIDDLEWARE = [
@@ -108,7 +109,8 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+# LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-ru'
 
 TIME_ZONE = 'UTC'
 

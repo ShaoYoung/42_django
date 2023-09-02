@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'myapp2',  # приложение myapp2 является частью проекта
     'myapp3',  # приложение myapp3 является частью проекта
     'myapp4',  # приложение myapp4 является частью проекта
+    'myapp5',  # приложение myapp5 является частью проекта
 ]
 
 MIDDLEWARE = [
@@ -113,7 +114,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+# настройка языка
+# LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-ru'
 
 TIME_ZONE = 'UTC'
 
