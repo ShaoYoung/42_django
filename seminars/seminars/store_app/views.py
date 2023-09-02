@@ -9,15 +9,15 @@ from django.core.files.storage import FileSystemStorage
 def get_product_by_id(request, product_id):
     product = Product.objects.filter(pk=product_id).first()
 
-    print(product)
-    print(product.image)
+    # print(product)
+    # print(f'product.image - {product.image}')
     context = {
         'title': 'Продукт',
         'message': 'Описание продукта',
         'product': product,
     }
+    # print(f'product.image.url - {product.image.url}')
     return render(request, "store_app/product.html", context)
-
 
 
 def get_orders_by_client_id(request, client_id):

@@ -1,11 +1,15 @@
 from django.db import models
 
+
 class Client(models.Model):
     name = models.CharField(max_length=100)
     email = models.EmailField()
     phone = models.CharField(max_length=12)
     address = models.CharField(max_length=100)
     date_reg = models.DateField(auto_now=True)
+
+    def __str__(self):
+        return f'{self.name}, телефон: {self.phone}'
 
 
 class Product(models.Model):
@@ -28,4 +32,3 @@ class Order(models.Model):
     products = models.ManyToManyField(Product)
     sum_order = models.DecimalField(max_digits=15, decimal_places=2)
     date_create = models.DateField()
-
