@@ -36,6 +36,7 @@ urlpatterns = [
     path('hw_1/', include('homework_1_app.urls')),
     path('sem_2_1_app/', include('sem_2_1_app.urls')),
     path('store/', include('store_app.urls')),
+    path('__debug__/', include("debug_toolbar.urls")),  # маршрут для работы профилировщика
 ]
 
 # обращение к MEDIA_URL

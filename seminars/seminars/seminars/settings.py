@@ -12,21 +12,49 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os
+# from dotenv import load_dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+# load_dotenv(BASE_DIR/'.env')
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-&(0*c*gemwdjg933eq7oknh-@cr4=^xi7lg3(@rx)z@@=ri5ta'
+# SECRET_KEY = 'django-insecure-&(0*c*gemwdjg933eq7oknh-@cr4=^xi7lg3(@rx)z@@=ri5ta'
+
+# Секретный ключ. Его стоит хранить не в файле настроек, а в переменных окружения.
+# Меняем строку с ключом от Django на следующие пару строк
+# getenv по ключу извлекает значение
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# Режим отладки. Его необходимо отключить в готовом проекте.
+# DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', '192.168.186.191',]
+
+# Повышаем безопасность работы с сессиями и с csrf токенами
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+
+
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    '192.168.186.191',
+    'ShaoYoung.pythonanywhere.com',
+]
+
+
+# В список INTERNAL_IPS добавим локальный адрес компьютера - 127.0.0.1.
+# Панель DjDT отображается только в случае совпадения адреса.
+INTERNAL_IPS = [
+    '127.0.0.1',
+]
+
 
 # Application definition
 
@@ -43,9 +71,11 @@ INSTALLED_APPS = [
     'sem_2_1_app',
     'store_app',
     'sem_5_app',
+    'debug_toolbar',  # приложение DjDT
 ]
 
 MIDDLEWARE = [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',  # Рекомендуется подключить DebugToolbarMiddleware как можно раньше.
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -79,10 +109,25 @@ WSGI_APPLICATION = 'seminars.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
+# Для pythonanywhere.com
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'ShaoYoung$default',
+        'USER': 'ShaoYoung',
+        'PASSWORD': os.getenv('MYSQL_PASSWORD'),
+        'HOST': 'ShaoYoung.mysql.pythonanywhere-services.com',
+        'OPTIONS': {
+            'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
+            'charset': 'utf8mb4',
+        },
     }
 }
 
@@ -122,7 +167,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+# путь до статики (css, js)
 STATIC_URL = 'static/'
+# константа для правильной настройки работы со статическими файлами на сервере. сбор всей статики в одном месте
+STATIC_ROOT = BASE_DIR / 'static/'
 
 # для сохранения изображений
 # django создаёт (при первом использовании) эти каталоги и сохраняет в них изображения
@@ -210,3 +258,6 @@ LOGGING = {'version': 1,
                },
            }
            }
+
+# Освежить знания по логированию можно на странице официальной документации Python https://docs.python.org/3/library/logging.html
+
